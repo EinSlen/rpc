@@ -1,6 +1,6 @@
 var rpc = require('discord-rpc');
 var client = new rpc.Client({ transport: 'ipc' });
-const { client-id } = require('./package.json');
+const { clientid } = require('./package.json');
 
 client.on('ready', () => {
     client.resquest('SET_ACTIVITY', {
@@ -12,4 +12,4 @@ client.on('ready', () => {
     })
 })
 
-client.login({ clientId: `${client-id}` }).catch(error => console.log(error))
+client.login({ clientId: `${clientid}` }).catch(error => console.log(error))
