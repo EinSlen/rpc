@@ -1,0 +1,13 @@
+{
+  "name": "rpc-discord",
+  "version": "1.0.0",
+  "description": "RPS DISCORD WITH ID",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "DVLaD",
+  "license": "ISC",
+  "client-id":  "YOUR ID DISCORD"
+}
